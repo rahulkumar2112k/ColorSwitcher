@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    position: relative; /* This keeps the button in the normal flow initially */
+    transition: transform 0.3s ease, bottom 0.6s ease; /* Smooth transition */
+  }
+  
+  .button:hover {
+    transform: scale(1.2); /* Pop out effect */
+  }
+  
+  /* Active state when the button moves to the bottom */
+  .button.active {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  
+  #blue {
+    background: blue;
+  }
+  
+  #yellow {
+    background: yellow;
+  }
+  
