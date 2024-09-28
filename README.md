@@ -6,7 +6,7 @@ Color Changing: Allows users to switch between different background colors with 
 Interactive UI: A button-based user interface to switch colors dynamically.
 Simple Implementation: Ideal for beginners to learn and understand JavaScript basics like event handling and DOM manipulation.
 Demo
-[]
+[ https://rahulkumar2112k.github.io/ColorSwitcher/]
 
 Technologies Used
 HTML5
